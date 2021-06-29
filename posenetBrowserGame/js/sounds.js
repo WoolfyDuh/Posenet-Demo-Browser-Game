@@ -1,5 +1,5 @@
-let wallSpawnSound = new Audio("../media/pop.ogg")
-let hitSound = new Audio("../media/bap.ogg")
+const wallSpawnSound = new Audio("../media/pop.ogg")
+const hitSound = new Audio("../media/bap.ogg")
 
 export function playWallSpawnSound(){
     wallSpawnSound.play()
@@ -9,4 +9,4 @@ export function playWallSpawnSound(){
 export function playHitSound(){
     hitSound.play()
     console.log("%c hitSound has been played", "color: pink;")
-}
+} 

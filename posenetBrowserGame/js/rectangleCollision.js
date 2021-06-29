@@ -7,7 +7,7 @@ export function checkForRectCollision(rectXY,rectWH, circle){
 
     if(dx <= rectWH.dx) return (true)
     if(dy <= rectWH.dy) return (true)
-    
+    // // wat is het nut van onderstaande code???????
      dx = dx - rectWH.dx;
      dy = dy - rectWH.dy;
     
