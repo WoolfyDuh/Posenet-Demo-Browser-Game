@@ -1,0 +1,31 @@
+body{
+    background-color: #4834d4;
+    background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+    overflow: hidden;
+}
+
+#boxmargins{
+    margin: 10em;
+    margin-top: 130px;
+    padding: 10em;    
+}
+
+#box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px pink;
+}
+#button{
+    text-shadow: 1px 1px 2px purple;
+    color: rgb(66, 178, 252);
+    border: 2px solid black;
+    box-sizing: border-box;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    padding: 2.5px;
+    text-decoration: none;
+}

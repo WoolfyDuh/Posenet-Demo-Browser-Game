@@ -13,11 +13,11 @@ const cvs = document.getElementById('canvas');
 const ctx = cvs.getContext('2d');
 
 let pose;//debug global
+const timeInMiliSeconds = 1000;
 export let score = 0;
 export let missCount = 0;
 export let countdownTime = 6;
 let hasCollided = false;
-const timeInMiliSeconds = 1000;
 
 function setupContext(){
   cvs.width = screenWidth;
